@@ -2,7 +2,7 @@ import image1 from '../assets/images/image1.jpg'
 import image2 from '../assets/images/image2.jpg'
 import image3 from '../assets/images/image3.jpg'
 import image4 from '../assets/images/image4.jpg'
-import video from '../assets/images/video.mp4'
+// import video from '../assets/images/video.mp4'
 import { useTranslation } from "react-i18next";
 import Card from './Card'
 
@@ -39,7 +39,7 @@ const Header = () => {
       <div>
         <div className="object-cover">
           <video className="h-screen pt-4 pb-8 w-11/12 m-auto" width="800" height="400" controls >
-          <source  src={video} type="video/mp4"/>
+          <source  src={"https://nammqi.uz/kriditmodultizimihaqida.mp4"} type="video/mp4"/>
           </video>
         </div>
       </div>
