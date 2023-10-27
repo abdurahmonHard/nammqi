@@ -1,0 +1,29 @@
+.TabImg{
+  width: 360px !important;
+  height: 240px !important;
+
+}
+
+.Tab-Container{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  /* justify-content: space-between !important; */
+  gap: 28px;
+  width: 90% !important;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.ant-tabs-nav-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80% !important;
+  margin: 0 auto;
+
+}
+.ant-tabs-nav::before {
+  display: none !important;
+  border: none !important;
+}
+

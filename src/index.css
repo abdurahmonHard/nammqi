@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+  font-family: 'Lora', serif;
+  
+}
+
+
+.ant-dropdown-menu {
+  border-radius: 0px !important;
+  margin-top: -4px !important;
+  background-color: #6c5ebf !important;
+  
+}
+
+.ant-dropdown-menu span{
+  color: #fff;
+}
+
+.ant-dropdown-menu-submenu-arrow-icon{
+  color: #fff !important;
+}
+
+
+
+
+.Card__CardCaption-sc-i5au7b-4 {
+  color: #6c5ebf !important;
+}
+
+.eapps-widget-toolbar-panel {
+  display: none !important;
+}
+
+.eapps-widget-toolbar-panel-share-button{
+  display: none !important;
+}
+
+.eapps-widget-toolbar-panel-only-you{
+  display: none !important;
+} */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
