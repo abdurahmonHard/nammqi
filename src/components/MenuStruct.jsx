@@ -12,6 +12,7 @@ const MenuStruct = () => {
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
+  
   const selectUz = () => {
     changeLanguage('uz')
   }
@@ -19,9 +20,11 @@ const MenuStruct = () => {
   const selectRu = () => {
     changeLanguage('ru')
   }
+
   const selectEng = () => {
     changeLanguage('en')
   }
+
 useEffect(()=> {
   if(i18n.language === 'uz') {
     setItems(itemsUz)

@@ -9,13 +9,13 @@ import footerPhoto5 from '../assets/images/footerPhoto5.jpg'
 import footerPhoto6 from '../assets/images/footerPhoto6.jpg'
 import footerPhoto7 from '../assets/images/footerPhoto7.jpg'
 import footerPhoto8 from '../assets/images/footerPhoto8.jpg'
+import { useTranslation } from "react-i18next";
 
 
 const Footer = ()=>{
+  const { t } = useTranslation();
   return(
     <div>
-
-    
       <div className="footer-items-container bg-[#6c5ebf]">
         <div className="footer-items flex w-[94%] m-auto pt-[100px] pb-[60px]">
           <div className="footer-contact px-3 h-[282px]" >
@@ -26,7 +26,7 @@ const Footer = ()=>{
               <ul>
                 <li className="text-white mb-2 flex items-center "> 
                   <div className="w-[36px] h-[36px]  rounded-sm bg-[#8175c8] text-center p-2 mr-2"> <i className='bx bx-home'></i></div>
-                  Islom Karimov ko`chasi 12-uy
+                  {t("Footer.footer1")}
                 </li>
               </ul>
               <ul>
@@ -51,7 +51,7 @@ const Footer = ()=>{
           </div>
           <div className="footer-galareya w-[292px] h-[340px] mx-3 overflow-hidden">
             <div className="gallerey-title mb-6 font-bold text-3xl text-white pl-1">
-              <h4>Galereyalar</h4>
+              <h4>{t("Footer.footer2")}</h4>
             </div>
             <div className="photos ">
               <ul className="flex flex-wrap ">
@@ -104,7 +104,7 @@ const Footer = ()=>{
         <div className="footer-content flex  w-[94%] m-auto py-8">
           <div className="footer-text">
             <p className="font-bold text-[#707070] px-3.5">
-              © 2022 Namangan muhandislik-qurilish instituti. All right reserved.
+            {t("Footer.footer3")}
             </p>
           </div>
           <div className="footer-link pl-9">

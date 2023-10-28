@@ -2,11 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
+body{
   font-family: 'Lora', serif;
   
 }
 
+
+.ant-dropdown-menu-item{
+  font-family: 'Lora', serif;
+}
+
+.ant-dropdown-menu-title-content{
+  font-family: 'Lora', serif;
+}
 
 .ant-dropdown-menu {
   border-radius: 0px !important;
@@ -40,7 +48,7 @@
 
 .eapps-widget-toolbar-panel-only-you{
   display: none !important;
-} */
+}
 
 
 html {

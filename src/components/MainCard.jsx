@@ -39,7 +39,7 @@ const MainCard =()=>{
       <div>
         <div className="card-title text-center">
           <h3 className="text-[#6c5ebf] pb-5 text-4xl font-bold leading-10">
-            {t("mainCard.news")}
+            {t("MainCard.title")}
           </h3>
         </div>
         <div className="flex flex-wrap w-[94%] m-auto">
@@ -52,7 +52,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  {t("mainCard.text1")}
+                  {t("MainCard.news2")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -80,7 +80,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  NamMQI va Belarus davlat transport universiteti o‘rtasida hamkorlik memorandumi imzolandi
+                  {t("MainCard.news3")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -107,7 +107,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Minskda Oʼzbekiston va Belarus oliy taʼlim muassasalari rektorlari anjumanining ochilish marosimi boʼlib oʼtdi
+                  {t("MainCard.news4")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -134,7 +134,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Prezident Shavkat Mirziyoev hududlar rivoji, aholi turmushi bilan tanishish maqsadida Qashqadaryo viloyatiga joʼnab ketdi
+                  {t("MainCard.news5")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -161,7 +161,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Stritbol bo‘yicha viloyat bosqichi yakuniga yetdi. NamMQI jamoalari sovrinli o‘rinlarni egalladi
+                  {t("MainCard.news6")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -188,7 +188,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Ayni paytda Toshkentda "Yoshlar huquqlari: imkoniyatlar va himoya qilish mexanizmlari" mavzusida xalqaro forum bo‘lib o‘tmoqda.
+                  {t("MainCard.news7")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -215,7 +215,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[rgb(51,122,183)] no-underline hover:underline">
-                  NamMQI vakili “Faol tadqiqotchi” ko’krak nishoni bilan taqdirlandi
+                  {t("MainCard.news8")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -242,7 +242,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Namangan muhandislik-qurilish instituti 1-sonli talabalar turar joyida yashovchi yoshlar bilan "Students Party" ko'ngilochar dasturi o'tkazildi.
+                  {t("MainCard.news9")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -269,7 +269,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  NamMQI dekan o‘rinbosari loyiha muallifi bo‘lgan “Hilol” to‘plami taqdimoti bo‘lib o‘tdi
+                  {t("MainCard.news10")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -296,7 +296,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  «Besh tashabbus olimpiadasi» voleybol bo‘yicha viloyat bosqichida NamMQI jamoasi uchinchi o‘rinni egalladi
+                 {t("MainCard.news11")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -323,7 +323,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4 max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Stajyor-o‘qituvchiga vazir sovg‘asi topshirildi
+                  {t("MainCard.news12")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -350,7 +350,7 @@ const MainCard =()=>{
               </a>
               <h5 className="text-base font-bold p-4  max-w-full h-[134px]  text-clip overflow-hidden">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Ayni paytda Toshkentda "Yoshlar huquqlari: imkoniyatlar va himoya qilish mexanizmlari" mavzusida xalqaro forum bo‘lib o‘tmoqda.
+                  {t("MainCard.news13")}
                 </a>
               </h5>
               <div className="border border-[#f0f0f0] border-t-1 border-l-0 border-r-0 border-b-0">
@@ -368,11 +368,15 @@ const MainCard =()=>{
             </div>
           </div>
         </div>
+
+
 {/* ELONLAR CARDS */}
+
+
         <div className="elonlar-card w-full bg-[#f5f8fa] py-3">
           <div className="card-title text-center">
             <h3 className="text-[#6c5ebf] pb-5 text-4xl font-bold leading-10">
-              E'lonlar
+              {t("Elons.title")}
             </h3>
           </div>
           <div className="flex flex-wrap w-[94%] m-auto">
@@ -385,7 +389,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      Institutda mini-futbol bo'yicha "Rektor kubogi" ga start berildi
+                      {t("Elons.news2")}
                     </h5>
                   </div>
                   <div >
@@ -394,7 +398,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news3")}</a>
                       </button>
                     </div>
                   </div>
@@ -411,7 +415,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      DIQQAT E'LON
+                      {t("Elons.news4")}
                     </h5>
                   </div>
                   <div className="">
@@ -420,7 +424,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news5")}</a>
                       </button>
                     </div>
                   </div>
@@ -437,7 +441,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      Davlat tili haqidagi testga tayyormisiz?
+                      {t("Elons.news6")}
                     </h5>
                   </div>
                   <div className="">
@@ -446,7 +450,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news7")}</a>
                       </button>
                     </div>
                   </div>
@@ -463,7 +467,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      1 000 nafar talaba-o‘quvchilarni xalqaro IELTS sertifikatiga bepul o‘qitish rejalashtirilmoqda
+                      {t("Elons.news8")}
                     </h5>
                   </div>
                   <div >
@@ -472,7 +476,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news9")}</a>
                       </button>
                     </div>
                   </div>
@@ -489,7 +493,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      2024-yil uchun doktorantura va mustaqil izlanuvchilikka hujjat qabul qilish muddati uzaytirildi!
+                      {t("Elons.news10")}
                     </h5>
                   </div>
                   <div>
@@ -498,7 +502,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news11")}</a>
                       </button>
                     </div>
                   </div>
@@ -515,7 +519,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      E'LON!!!
+                      {t("Elons.news12")}
                     </h5>
                   </div>
                   <div >
@@ -524,7 +528,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news13")}</a>
                       </button>
                     </div>
                   </div>
@@ -541,7 +545,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      “El-yurt umidi” jamg‘armasi 2023 yilgi 2-ochiq stipendiya tanlovini e'lon qiladi!
+                      {t("Elons.news14")}
                     </h5>
                   </div>
                   <div >
@@ -550,7 +554,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news15")}</a>
                       </button>
                     </div>
                   </div>
@@ -567,7 +571,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      DIQQAT, E'LON
+                      {t("Elons.news16")}
                     </h5>
                   </div>
                   <div >
@@ -576,7 +580,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news17")}</a>
                       </button>
                     </div>
                   </div>
@@ -593,7 +597,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      Xakimov Mirolimjon Murodiljonovichning falsafa doktori (PhD) ilmiy darajasini olish muhokamasi.
+                      {t("Elons.news18")}
                     </h5>
                   </div>
                   <div >
@@ -602,7 +606,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news19")}</a>
                       </button>
                     </div>
                   </div>
@@ -613,13 +617,13 @@ const MainCard =()=>{
             <div className="px-3.5 py-3">
               <div className="w-[367.3px] h-[530px]  mb-3.5 shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
                 <div >
-                  <img className="w-full h-[365px]" src={imgs11} alt="img" 
+                  <img className="w-full h-[300px]" src={imgs11} alt="img" 
                   />
                 </div>
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      Siz Koreyaga ishga yoki o’qishga bormoqchisiz?
+                      {t("Elons.news20")}
                     </h5>
                   </div>
                   <div >
@@ -628,7 +632,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news21")}</a>
                       </button>
                     </div>
                   </div>
@@ -645,7 +649,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      E'LON!!!
+                      {t("Elons.news22")}
                     </h5>
                   </div>
                   <div >
@@ -654,7 +658,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news23")}</a>
                       </button>
                     </div>
                   </div>
@@ -671,7 +675,7 @@ const MainCard =()=>{
                 <div className="p-6">
                   <div>
                     <h5 className="text-base font-bold text-[#696969]">
-                      E'LON!!!
+                      {t("Elons.news24")}
                     </h5>
                   </div>
                   <div className="">
@@ -680,7 +684,7 @@ const MainCard =()=>{
                     </div>
                     <div className="card-button">
                       <button className="bg-[#6c5ebf] hover:bg-[#ffb400] py-2 px-7 rounded-sm transition font-bold">
-                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">Batafsil</a>
+                        <a href="https://nammqi.uz/davlat-tili-haqidagi-testga-tayyormisiz" className="text-white">{t("Elons.news25")}</a>
                       </button>
                     </div>
                   </div>

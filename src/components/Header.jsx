@@ -59,7 +59,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  {t("text")}
+                  {t("headerCard.hemis")}
                 </a>
               </h5>
             </div>
@@ -75,7 +75,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Hemis (O'qituvchi)
+                  {t("headerCard.hemises")}
                 </a>
               </h5>
             </div>
@@ -91,7 +91,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Dars jadvali
+                  {t("headerCard.dars")}
                 </a>
               </h5>
             </div>
@@ -107,7 +107,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Elektron kutubxona
+                  {t("headerCard.Electron")}
                 </a>
               </h5>
             </div>
@@ -123,7 +123,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Video darslar
+                  {t("headerCard.video")}
                 </a>
               </h5>
             </div>
@@ -139,7 +139,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Moodle
+                  {t("headerCard.moodle")}
                 </a>
               </h5>
             </div>
@@ -155,7 +155,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  DTM
+                  {t("headerCard.dtm")}
                 </a>
               </h5>
             </div>
@@ -171,7 +171,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Kontrakt.edu.uz
+                  {t("headerCard.edu")}
                 </a>
               </h5>
             </div>
@@ -187,7 +187,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Reyting tizimi
+                  {t("headerCard.diplom")}
                 </a>
               </h5>
             </div>
@@ -203,7 +203,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  @NamMQI_rectori
+                  {t("headerCard.tizim")}
                 </a>
               </h5>
             </div>
@@ -219,7 +219,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Unilibrary - yagona elektron kutubxona
+                  {t("headerCard.rector")}
                 </a>
               </h5>
             </div>
@@ -235,7 +235,7 @@ const Header = () => {
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  "TTJ"ga onlayn ariza (2-3-kurslar uchun)
+                  {t("headerCard.library")}
                 </a>
               </h5>
             </div>

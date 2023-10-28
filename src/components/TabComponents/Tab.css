@@ -1,7 +1,6 @@
 .TabImg{
   width: 360px !important;
   height: 240px !important;
-
 }
 
 .Tab-Container{
@@ -22,8 +21,27 @@
   margin: 0 auto;
 
 }
-.ant-tabs-nav::before {
-  display: none !important;
+
+.ant-tabs-tab-btn{
+  font-family: 'Lora', serif;
+  color: #696969;
+  font-size: 18px;
+}
+
+.ant-tabs-nav-wrap{
+  border-width: 0 !important;
   border: none !important;
 }
 
+.ant-tabs-ink-bar-animated{
+  border-width: 0 !important;
+  border: none !important;
+  border-style: none !important;
+  width: 0 !important;
+}
+
+.Tab-container{
+  margin-top: 20px;
+  margin-bottom: 100px;
+
+}

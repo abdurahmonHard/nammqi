@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import achivements from '../assets/images/achievements.jpg'
+import { useTranslation } from "react-i18next";
 
 const Counter = () => {
+  const { t } = useTranslation();
   const [count, setCount] = useState(0);
   const [count2, setCount2] = useState(0);
   const [count3, setCount3] = useState(0);
@@ -54,28 +56,28 @@ const Counter = () => {
               <span className="text-white font-bold text-5xl">
                 {count}
               </span>
-              <p className="text-white font-bold text-2xl pt-3">Professor o'qituvchilar</p>
+              <p className="text-white font-bold text-2xl pt-3">{t("Counter.count1")}</p>
             </div>
             <div className="counts text-center w-[262px] px-3.5">
               <p className="text-[#ffb400] text-6xl pb-8"><i className='bx bx-user'></i></p>
               <span className="text-white font-bold text-5xl">
                 {count2}
               </span>
-              <p className="text-white font-bold text-2xl pt-3">Talabalar soni</p>
+              <p className="text-white font-bold text-2xl pt-3">{t("Counter.count2")}</p>
             </div>
             <div className="counts text-center w-[292px] px-3.5">
               <p className="text-[#ffb400] text-6xl pb-8"><i className='bx bx-pencil'></i></p>
               <span className="text-white font-bold text-5xl">
                 {count3}
               </span>
-              <p className="text-white font-bold text-2xl pt-3" >Bitiruvchilar</p>
+              <p className="text-white font-bold text-2xl pt-3" >{t("Counter.count3")}</p>
             </div>
             <div className="counts text-center w-[292px] px-3.5">
               <p className="text-[#ffb400] text-6xl pb-8"><i className='bx bx-book' ></i></p>
               <span className="text-white font-bold text-5xl ">
                 {count4}
               </span>
-              <p className="text-white font-bold text-2xl pt-3">Kitob fondi</p>
+              <p className="text-white font-bold text-2xl pt-3">{t("Counter.count4")}</p>
             </div>
           </div>
         </div>

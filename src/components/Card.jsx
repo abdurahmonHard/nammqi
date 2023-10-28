@@ -9,17 +9,18 @@ import imgNammqi6 from "../assets/images/imgNammqi6.jpg"
 import fonli from "../assets/images/fonli.png"
 import institut from "../assets/images/institute.png"
 import MainCard from "./MainCard";
-
+import { useTranslation } from "react-i18next";
 
 
 
 const Card =()=>{
+  const { t } = useTranslation();
   return(
     <div className="main-content">
       <div className="container w-full bg-[#f5f8fa] py-6 ">
         <div className="card-title text-center">
           <h3 className="text-[#6c5ebf] pb-5 text-4xl font-bold leading-10">
-            Fakultetlar
+            {t("Card.title")}
           </h3>
         </div>
         <div className="cards flex flex-wrap w-[94%] m-auto">
@@ -29,8 +30,8 @@ const Card =()=>{
                 <img src={imgNammqi} alt="img"/>
               </a>
               <h5 className="text-base font-bold">
-                <a href='http://video.nammqi.uz/'  className="text-[#696969]">
-                  IQTISODIYOT VA BOSHQARUV FAKULTETI
+                <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
+                  {t("Card.text1")}
                 </a>
               </h5>
             </div>
@@ -43,7 +44,7 @@ const Card =()=>{
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  ENERGETIKA VA MEHNAT MUHOFAZASI FAKULTETI
+                  {t("Card.text2")}
                 </a>
               </h5>
             </div>
@@ -55,8 +56,8 @@ const Card =()=>{
                 <img src={imgNammqi2} alt="img"/>
               </a>
               <h5 className="text-base font-bold">
-                <a href='http://video.nammqi.uz/'  className="text-[#696969]">
-                  MASHINASOZLIK FAKULTETI
+                <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
+                  {t("Card.text3")}
                 </a>
               </h5>
             </div>
@@ -68,8 +69,8 @@ const Card =()=>{
                 <img src={imgNammqi3} alt="img"/>
               </a>
               <h5 className="text-base font-bold">
-                <a href='http://video.nammqi.uz/'  className="text-[#696969]">
-                  TRANSPORT FAKULTETI
+                <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
+                  {t("Card.text4")}
                 </a>
               </h5>
             </div>
@@ -81,8 +82,8 @@ const Card =()=>{
                 <img src={imgNammqi4} alt="img"/>
               </a>
               <h5 className="text-base font-bold">
-                <a href='http://video.nammqi.uz/'  className="text-[#696969]">
-                  MUHANDISLIK KOMMUNIKATSIYALARI FAKULTETI
+                <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
+                  {t("Card.text5")}
                 </a>
               </h5>
             </div>
@@ -94,8 +95,8 @@ const Card =()=>{
                 <img src={imgNammqi5} alt="img"/>
               </a>
               <h5 className="text-base font-bold">
-                <a href='http://video.nammqi.uz/'  className="text-[#696969]">
-                  SANOATNI AXBOROTLASHTIRISH FAKULTETI
+                <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
+                  {t("Card.text6")}
                 </a>
               </h5>
             </div>
@@ -107,8 +108,8 @@ const Card =()=>{
                 <img src={imgNammqi6} alt="img"/>
               </a>
               <h5 className="text-base font-bold">
-                <a href='http://video.nammqi.uz/'  className="text-[#696969]">
-                  QURILISH FAKULTETI
+                <a href='http://video.nammqi.uz/'  className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
+                  {t("Card.text7")}
                 </a>
               </h5>
             </div>
@@ -124,7 +125,7 @@ const Card =()=>{
         <div>
           <div className="card-title text-center">
             <h3 className="text-[#6c5ebf] pb-5 text-4xl font-bold leading-10">
-              Iqtidorli talabalar
+              {t("CardSecond.title")}
             </h3>
           </div>
         <div className="Card-container flex w-[94%] m-auto flex-wrap py-5">
@@ -139,7 +140,7 @@ const Card =()=>{
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Karimov Axrorbek (26-ATT-22)
+                  {t("CardSecond.text1")}
                 </a>
               </h5>
             </div>
@@ -155,7 +156,7 @@ const Card =()=>{
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Tuxtasinov Shoxrux (26-ATT-20)
+                  {t("CardSecond.text2")}
                 </a>
               </h5>
             </div>
@@ -171,7 +172,7 @@ const Card =()=>{
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Sharifi Xadadaytillo (42-ATT-22)
+                  {t("CardSecond.text3")}
                 </a>
               </h5>
             </div>
@@ -187,7 +188,7 @@ const Card =()=>{
               </a>
               <h5 className="text-base font-bold">
                 <a href='http://video.nammqi.uz/' className="text-[#696969] hover:text-[#337ab7] no-underline hover:underline">
-                  Jalloliddinov Nizomjon (8-ATT-21)
+                  {t("CardSecond.text4")}
                 </a>
               </h5>
             </div>
@@ -208,7 +209,7 @@ const Card =()=>{
               </div>
               <div>
                 <h4 className=" text-white  font-bold text-2xl">
-                  1979 yil - Toshkent politexnika institutining Namangan filiali
+                  {t("About.aboutuviversty1")}
                 </h4>
               </div>
             </div>
@@ -223,7 +224,7 @@ const Card =()=>{
               </div>
               <div>
                 <h4 className=" text-white  font-bold text-2xl">
-                  1979 yil - Toshkent politexnika institutining Namangan filiali
+                  {t("About.aboutuviversty2")}
                 </h4>
               </div>
             </div>
@@ -238,7 +239,7 @@ const Card =()=>{
               </div>
               <div>
                 <h4 className=" text-white  font-bold text-2xl">
-                  1979 yil - Toshkent politexnika institutining Namangan filiali
+                  {t("About.aboutuviversty3")}
                 </h4>
               </div>
             </div>
@@ -253,7 +254,7 @@ const Card =()=>{
               </div>
               <div>
                 <h4 className=" text-white  font-bold text-2xl">
-                  1979 yil - Toshkent politexnika institutining Namangan filiali
+                  {t("About.aboutuviversty4")}
                 </h4>
               </div>
             </div>
@@ -268,7 +269,7 @@ const Card =()=>{
               </div>
               <div>
                 <h4 className=" text-white  font-bold text-2xl">
-                  1979 yil - Toshkent politexnika institutining Namangan filiali
+                  {t("About.aboutuviversty5")}
                 </h4>
               </div>
             </div>

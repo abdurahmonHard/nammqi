@@ -1,9 +1,100 @@
 {
-  "mainCard": {
-    "news": "Yangiliklar",
-    "text1": "Namangan muhandislik-qurilish instituti 'Qalqon' jamoatchilik guruhi faoliyati takomillashtirilmoqda"
+  "headerCard": {
+    "hemis": "Hemis (talaba)",
+    "hemises": "Hemis (O'qituvchi)",
+    "dars": "Dars jadvali",
+    "Electron": "Elektron kutubxona",
+    "video": "Video darslar",
+    "moodle": "Moodle",
+    "dtm": "DTM",
+    "edu": "Kontrakt.edu.uz",
+    "diplom": "Diplom dublikatini olish",
+    "tizim": "Reyting tizimi",
+    "rector": "@NamMQI_rectori",
+    "library": "Unilibrary - yagona elektron kutubxona"
   },
-  "text": "Hemis (talaba)"
+  "Card": {
+    "title": "Fakultetlar",
+    "text1": "IQTISODIYOT VA BOSHQARUV FAKULTETI",
+    "text2": "ENERGETIKA VA MEHNAT MUHOFAZASI FAKULTETI",
+    "text3": "MASHINASOZLIK FAKULTETI",
+    "text4": "TRANSPORT FAKULTETI",
+    "text5": "MUHANDISLIK KOMMUNIKATSIYALARI FAKULTETI",
+    "text6": "SANOATNI AXBOROTLASHTIRISH FAKULTETI",
+    "text7": "QURILISH FAKULTETI"
+  },
 
-  
+  "CardSecond": {
+    "title": "Iqtidorli talabalar",
+    "text1": "Karimov Axrorbek (26-ATT-22)",
+    "text2": "Tuxtasinov Shoxrux (26-ATT-20)",
+    "text3": "Sharifi Xadadaytillo (42-ATT-22)",
+    "text4": "Jalloliddinov Nizomjon (8-ATT-21)"
+  },
+
+  "About": {
+    "aboutuviversty1": "1979 yil - Toshkent politexnika institutining Namangan filiali",
+    "aboutuviversty2": "1989 yil - Toshkent mashinasozlik institutining Namangan filiali",
+    "aboutuviversty3": "1991 yil - Namangan sanoat-texnologiya instituti",
+    "aboutuviversty4": "1998 yil - Namangan muhandislik-pedagogika instituti",
+    "aboutuviversty5": "2017 yil - Namangan muhandislik-qurilish instituti"
+  },
+  "MainCard": {
+    "title": "Yangiliklar",
+    "news2": "Hafssizlik tizimi buyicha tadbir bulib utdi",
+    "news3": "NamMQI va Belarus davlat transport universiteti o‘rtasida hamkorlik memorandumi imzolandi",
+    "news4": "Minskda Oʼzbekiston va Belarus oliy taʼlim muassasalari rektorlari anjumanining ochilish marosimi boʼlib oʼtdi",
+    "news5": "Prezident Shavkat Mirziyoev hududlar rivoji, aholi turmushi bilan tanishish maqsadida Qashqadaryo viloyatiga joʼnab ketdi",
+    "news6": "Stritbol bo‘yicha viloyat bosqichi yakuniga yetdi. NamMQI jamoalari sovrinli o‘rinlarni egalladi",
+    "news7": "Ayni paytda Toshkentda Yoshlar huquqlari: imkoniyatlar va himoya qilish mexanizmlari mavzusida xalqaro forum bo‘lib o‘tmoqda.",
+    "news8": "NamMQI vakili “Faol tadqiqotchi” ko’krak nishoni bilan taqdirlandi",
+    "news9": "Namangan muhandislik-qurilish instituti 1-sonli talabalar turar joyida yashovchi yoshlar bilan Students Party ko'ngilochar dasturi o'tkazildi.",
+    "news10": "NamMQI dekan o‘rinbosari loyiha muallifi bo‘lgan “Hilol” to‘plami taqdimoti bo‘lib o‘tdi",
+    "news11": "«Besh tashabbus olimpiadasi» voleybol bo‘yicha viloyat bosqichida NamMQI jamoasi uchinchi o‘rinni egalladi",
+    "news12": "Stajyor-o‘qituvchiga vazir sovg‘asi topshirildi",
+    "news13": "Ayni paytda Toshkentda Yoshlar huquqlari: imkoniyatlar va himoya qilish mexanizmlari mavzusida xalqaro forum bo‘lib o‘tmoqda."
+  },
+
+  "Elons": {
+    "title": "E'lonlar",
+    "news2": "Institutda mini-futbol bo'yicha 'Rektor kubogi' ga start berildi",
+    "news3": "Batafsil",
+    "news4": " DIQQAT E'LON",
+    "news5": "Batafsil",
+    "news6": "Davlat tili haqidagi testga tayyormisiz?",
+    "news7": "Batafsil",
+    "news8": "1 000 nafar talaba-o‘quvchilarni xalqaro IELTS sertifikatiga bepul o‘qitish rejalashtirilmoqda",
+    "news9": "Batafsil",
+    "news10": "2024-yil uchun doktorantura va mustaqil izlanuvchilikka hujjat qabul qilish muddati uzaytirildi!",
+    "news11": "Batafsil",
+    "news12": "E'LON!!!",
+    "news13": "Batafsil",
+    "news14": "“El-yurt umidi” jamg‘armasi 2023 yilgi 2-ochiq stipendiya tanlovini e'lon qiladi!",
+    "news15": "Batafsil",
+    "news16": "DIQQAT, E'LON",
+    "news17": "Batafsil",
+    "news18": "Xakimov Mirolimjon Murodiljonovichning falsafa doktori (PhD) ilmiy darajasini olish muhokamasi.",
+    "news19": "Batafsil",
+    "news20": "Siz Koreyaga ishga yoki o’qishga bormoqchisiz?",
+    "news21": "Batafsil",
+    "news22": "E'LON!!!",
+    "news23": "Batafsil",
+    "news24": "E'LON!!!",
+    "news25": "Batafsil"
+  },
+  "Counter": {
+    "count1": "Professor o'qituvchilar",
+    "count2": "Talabalar soni",
+    "count3": "Bitiruvchilar",
+    "count4": "Kitob fondi"
+  },
+  "Footer": {
+    "footer1": "Islom Karimov ko`chasi 12-uy",
+    "footer2": "Galereyalar",
+    "footer3": "© 2022 Namangan muhandislik-qurilish instituti. Barcha huquqlar himoyalangan."
+  }
+
+
+
+
 }

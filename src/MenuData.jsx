@@ -21,14 +21,13 @@ import img7 from './assets/images/images7.jpg'
 import img8 from './assets/images/images8.jpg'
 
 
-
 export const itemsUz = [
 
   [
     {
       key: '1',
       title: "Tuzilma",
-      label: <a href="https://nammqi.uz/kafedry-1" target="_self">KAFEDRLAR</a>,
+      label: <a href="https://nammqi.uz/kafedry-1">KAFEDRLAR</a>,
 
     },
 
@@ -196,15 +195,15 @@ export const itemsUz = [
   [{
     key: '21',
     title: "Bog`lanish",
-    label: <a href="https://nammqi.uz/contact" target="_self">ALOQA</a>
+    label: <a href="https://nammqi.uz/contact">ALOQA</a>
   },
   {
     key: '23',
-    label: <a href="https://nammqi.uz/" target="_self">VIRTUAL QABULHONA</a>,
+    label: <a href="https://nammqi.uz/">VIRTUAL QABULHONA</a>,
   },
   {
     key: '24',
-    label: <a href="https://nammqi.uz/" target="_self">TELEFON RAQAMLAR</a>,
+    label: <a href="https://nammqi.uz/">TELEFON RAQAMLAR</a>,
   },
   ],
 
@@ -215,44 +214,45 @@ export const itemsRu = [
   [
     {
       key: '1',
-      title: "Tuzilma Ru",
-      label: <a href="https://nammqi.uz/kafedry-1" target="_self">KAFEDRLAR</a>,
+      title: "Структура",
+      label: <a href="https://nammqi.uz/kafedry-1">ОТДЕЛЕНИЯ</a>,
 
     },
 
     {
       key: '2',
-      label: <a href='https://nammqi.uz/universitet-ustavi'>INSTITUT USTAVI</a>,
+      label: <a href='https://nammqi.uz/universitet-ustavi'>УСТАВ ИНСТИТУТА</a>,
     },
     {
       key: '3',
-      label: <a href='https://nammqi.uz/institut-haqida'>INSTITUT HAQIDA</a>,
+      label: <a href='https://nammqi.uz/institut-haqida'>ОБ ИНСТИТУТЕ</a>,
     },
     {
       key: '4',
-      label: 'RAHBARIYAT',
+      label: 'ЛИДЕРСТВО',
       children: [
         {
           key: '1',
-          label: <a href="https://nammqi.uz/rektor">REKTOR</a>,
+          label: <a href="https://nammqi.uz/rektor">РЕКТОР</a>,
         },
         {
           key: '2',
-          label: <a href="https://nammqi.uz/1-i-prorektor-po-delam-molodezi-i-duxovno-prosvetitelskoi-rabote"> YOSHLAR MASALALARIRI VA MA'NAVIYAT MA'RIFAT ISHLARI BUYICHA BIRINCHI PROREKTOR </a>,
+          label: <a href="https://nammqi.uz/1-i-prorektor-po-delam-molodezi-i-duxovno-prosvetitelskoi-rabote"> ПЕРВЫЙ ПРОРЕКТОР ПО ДЕЛАМ МОЛОДЕЖИ И ДУХОВНО-ВОСВИТИТЕЛЬНОЙ РАБОТЕ</a>,
         },
         {
           key: '3',
-          label: <a href="https://nammqi.uz/prorektor-po-ucebnoi-rabote"> O'QUV ISHLARU BUYICHA PROREKTOR </a>,
+          label: <a href="https://nammqi.uz/prorektor-po-ucebnoi-rabote">ПРОРЕКТОР ПО УЧЕБНОЙ ВОПРОСАМ</a>,
+          
         },
         {
           key: '4',
-          label: <a href="https://nammqi.uz/ilmiy-ishlar-va-innovatsiyalar-boyicha-prorektor"> ILMIY ISHLAR VA INNOVATSIYALAR BO'YICHA PROREKTOR</a>,
+          label: <a href="https://nammqi.uz/ilmiy-ishlar-va-innovatsiyalar-boyicha-prorektor"> ПРОРЕКТОР ПО НАУЧНОЙ РАБОТЕ И ИННОВАЦИЯМ</a>,
         },
       ],
     },
     {
       key: '5',
-      label: <a href='https://nammqi.uz/fakultety'>FAKULTETLAR</a>,
+      label: <a href='https://nammqi.uz/fakultety'>ФАКУЛЬТЕТЫ</a>,
     },
   ],
 
@@ -261,46 +261,46 @@ export const itemsRu = [
 
   [{
     key: '5',
-    title: "Faoliyat",
-    label: ' ILMIY FAOLIYAT',
+    title: "Активность",
+    label: 'НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ',
     children: [
       {
         key: '1',
-        label: <a href="https://nammqi.uz/hamkorlik-ishlari">HAMKORLIK ISHLARI </a>,
+        label: <a href="https://nammqi.uz/hamkorlik-ishlari">КООПЕРАТИВНЫЕ ДЕЛА</a>,
       },
       {
         key: '2',
-        label: <a href="https://nammqi.uz/malaka-oshirish">MALAKA OSHIRISH VA QAYTA TAYYORLASH</a>,
+        label: <a href="https://nammqi.uz/malaka-oshirish">ПРОФЕССИОНАЛЬНОЕ ПОВЫШЕНИЕ И ПЕРЕПОДГОТОВКА</a>,
       },
       {
         key: '3',
-        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INOVATSION ISHLANMALAR</a>,
+        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">ИННОВАЦИОННЫЕ РАБОТЫ</a>,
       },
       {
         key: '4',
-        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INOVATSION ISHLANMALAR</a>,
+        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">ИННОВАЦИОННЫЕ РАБОТЫ</a>,
       },
     ],
   },
   {
     key: '6',
-    label: 'HALQARO ALOQALAR',
+    label: 'МЕЖДУНАРОДНЫЕ ОТНОШЕНИЯ',
     children: [
       {
         key: '1',
-        label: <a href="https://nammqi.uz/hamkorlik-ishlari">HAMKORLIK ISHLARI </a>,
+        label: <a href="https://nammqi.uz/hamkorlik-ishlari">КООПЕРАТИВНЫЕ ДЕЛА </a>,
       },
       {
         key: '2',
-        label: <a href="https://nammqi.uz/malaka-oshirish">MALAKA OSHIRISH VA QAYTA TAYYORLASH</a>,
+        label: <a href="https://nammqi.uz/malaka-oshirish">ПРОФЕССИОНАЛЬНОЕ ПОВЫШЕНИЕ И ПЕРЕПОДГОТОВКА</a>,
       },
       {
         key: '3',
-        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INOVATSION ISHLANMALAR</a>,
+        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">ИННОВАЦИОННЫЕ РАБОТЫ</a>,
       },
       {
         key: '4',
-        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INOVATSION ISHLANMALAR</a>,
+        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">ИННОВАЦИОННЫЕ РАБОТЫ</a>,
       },
     ],
   }
@@ -309,25 +309,25 @@ export const itemsRu = [
 
   [{
     key: '9',
-    title: "Ta`lim",
-    label: <a href="http://video.nammqi.uz/">VIDEODARSLAR</a>,
+    title: "Образование",
+    label: <a href="http://video.nammqi.uz/">ВИДЕО-УРОКИ</a>,
   },
 
   {
     key: '9',
-    label: 'BAKALAVRIYAT',
+    label: 'СТЕПЕНЬ БАКАЛАВРА',
     children: [
       {
         key: '10',
-        label: <a href="https://nammqi.uz/call-center-studentam">TALABALARGA CALL CENTER</a>,
+        label: <a href="https://nammqi.uz/call-center-studentam">КОЛЛ-ЦЕНТР ДЛЯ СТУДЕНТОВ</a>,
       },
       {
         key: '11',
-        label: <a href="https://nammqi.uz/o-vnutrennix-procedurax-instituta-dlya-studentov-namisi">YO'RIQNOMA</a>,
+        label: <a href="https://nammqi.uz/o-vnutrennix-procedurax-instituta-dlya-studentov-namisi">ИНСТРУКЦИИ</a>,
       },
       {
         key: '12',
-        label: <a href="http://tizim.nammqi.uz/dars-jadvali/">DARS JADVALI</a>,
+        label: <a href="http://tizim.nammqi.uz/dars-jadvali/">РАСПИСАНИЕ ЗАНЯТИЙ</a>,
       },
     ],
 
@@ -335,7 +335,7 @@ export const itemsRu = [
 
   {
     key: '9',
-    label: <a href="https://nammqi.uz/magistratura">MAGISTIRATURA BO'LIMI</a>,
+    label: <a href="https://nammqi.uz/magistratura">ВЫПУСКНОЕ ОТДЕЛЕНИЕ</a>,
   },
 
   ],
@@ -344,20 +344,20 @@ export const itemsRu = [
 
   [{
     key: '13',
-    title: "Abiturient",
-    label: <a href="https://nammqi.uz/qabul-komissiyasi-1" >QABUL KOMISSIYASI</a>
+    title: "Заявитель",
+    label: <a href="https://nammqi.uz/qabul-komissiyasi-1" >ПРИЕМНАЯ КОМИССИЯ</a>
   },
   {
     key: '15',
-    label: <a href="https://nammqi.uz/korsatmalar" >KO'RSATMALAR</a>,
+    label: <a href="https://nammqi.uz/korsatmalar" >ИНСТРУКЦИИ</a>,
   },
   {
     key: '16',
-    label: <a href="https://nammqi.uz/bakalavriat" > BAKALAVRIAT </a>,
+    label: <a href="https://nammqi.uz/bakalavriat" > СТЕПЕНЬ БАКАЛАВРА </a>,
   },
   {
     key: '17',
-    label: <a href="https://nammqi.uz/magistratura-2" >MAGISTIRATURA</a>,
+    label: <a href="https://nammqi.uz/magistratura-2" >СТЕПЕНЬ МАГИСТРА</a>,
   },
   ],
 
@@ -365,16 +365,16 @@ export const itemsRu = [
 
   [{
     key: '17',
-    title: "Yangiliklar",
-    label: <a href="https://nammqi.uz/news" >YANGILIKLAR</a>,
+    title: "Новости",
+    label: <a href="https://nammqi.uz/news" >НОВОСТИ</a>,
   },
   {
     key: '20',
-    label: <a href="https://nammqi.uz/elonlar" >E`LONLAR</a>,
+    label: <a href="https://nammqi.uz/elonlar" >ОБЪЯВЛЕНИЯ</a>,
   },
   {
     key: '21',
-    label: <a href="https://nammqi.uz/galleries">FOTOGALEREYA</a>,
+    label: <a href="https://nammqi.uz/galleries">ФОТОГАЛЕРЕЯ</a>,
   },
 
   ],
@@ -383,16 +383,16 @@ export const itemsRu = [
 
   [{
     key: '21',
-    title: "Bog`lanish",
-    label: <a href="https://nammqi.uz/contact" target="_self">ALOQA</a>
+    title: "Связь",
+    label: <a href="https://nammqi.uz/contact">КОММУНИКАЦИЯ</a>
   },
   {
     key: '23',
-    label: <a href="https://nammqi.uz/" target="_self">VIRTUAL QABULHONA</a>,
+    label: <a href="https://nammqi.uz/">ВИРТУАЛЬНЫЙ ПРИЕМ</a>,
   },
   {
     key: '24',
-    label: <a href="https://nammqi.uz/" target="_self">TELEFON RAQAMLAR</a>,
+    label: <a href="https://nammqi.uz/">ТЕЛЕФОННЫЕ НОМЕРА</a>,
   },
   ],
 
@@ -403,44 +403,44 @@ export const itemsEn = [
   [
     {
       key: '1',
-      title: "Tuzilma En",
-      label: <a href="https://nammqi.uz/kafedry-1" target="_self">KAFEDRLAR</a>,
+      title: "Structure",
+      label: <a href="https://nammqi.uz/kafedry-1">DEPARTMENTS</a>,
 
     },
 
     {
       key: '2',
-      label: <a href='https://nammqi.uz/universitet-ustavi'>INSTITUT USTAVI</a>,
+      label: <a href='https://nammqi.uz/universitet-ustavi'>INSTITUTE'S CHARTER</a>,
     },
     {
       key: '3',
-      label: <a href='https://nammqi.uz/institut-haqida'>INSTITUT HAQIDA</a>,
+      label: <a href='https://nammqi.uz/institut-haqida'>ABOUT THE INSTITUTE</a>,
     },
     {
       key: '4',
-      label: 'RAHBARIYAT',
+      label: 'LEADERSHIP',
       children: [
         {
           key: '1',
-          label: <a href="https://nammqi.uz/rektor">REKTOR</a>,
+          label: <a href="https://nammqi.uz/rektor">RECTOR</a>,
         },
         {
           key: '2',
-          label: <a href="https://nammqi.uz/1-i-prorektor-po-delam-molodezi-i-duxovno-prosvetitelskoi-rabote"> YOSHLAR MASALALARIRI VA MA'NAVIYAT MA'RIFAT ISHLARI BUYICHA BIRINCHI PROREKTOR </a>,
+          label: <a href="https://nammqi.uz/1-i-prorektor-po-delam-molodezi-i-duxovno-prosvetitelskoi-rabote"> FIRST VICE-RECTOR FOR YOUTH AFFAIRS AND SPIRITUAL EDUCATION WORKS </a>,
         },
         {
           key: '3',
-          label: <a href="https://nammqi.uz/prorektor-po-ucebnoi-rabote"> O'QUV ISHLARU BUYICHA PROREKTOR </a>,
+          label: <a href="https://nammqi.uz/prorektor-po-ucebnoi-rabote"> VICE-RECTOR FOR EDUCATIONAL AFFAIRS </a>,
         },
         {
           key: '4',
-          label: <a href="https://nammqi.uz/ilmiy-ishlar-va-innovatsiyalar-boyicha-prorektor"> ILMIY ISHLAR VA INNOVATSIYALAR BO'YICHA PROREKTOR</a>,
+          label: <a href="https://nammqi.uz/ilmiy-ishlar-va-innovatsiyalar-boyicha-prorektor"> VICE-RECTOR FOR SCIENTIFIC WORKS AND INNOVATIONS</a>,
         },
       ],
     },
     {
       key: '5',
-      label: <a href='https://nammqi.uz/fakultety'>FAKULTETLAR</a>,
+      label: <a href='https://nammqi.uz/fakultety'>FACULTIES</a>,
     },
   ],
 
@@ -449,46 +449,46 @@ export const itemsEn = [
 
   [{
     key: '5',
-    title: "Faoliyat",
-    label: ' ILMIY FAOLIYAT',
+    title: "Activity",
+    label: 'SCIENTIFIC ACTIVITY',
     children: [
       {
         key: '1',
-        label: <a href="https://nammqi.uz/hamkorlik-ishlari">HAMKORLIK ISHLARI </a>,
+        label: <a href="https://nammqi.uz/hamkorlik-ishlari">COOPERATIVE AFFAIRS </a>,
       },
       {
         key: '2',
-        label: <a href="https://nammqi.uz/malaka-oshirish">MALAKA OSHIRISH VA QAYTA TAYYORLASH</a>,
+        label: <a href="https://nammqi.uz/malaka-oshirish">PROFESSIONAL DEVELOPMENT AND RE-TRAINING</a>,
       },
       {
         key: '3',
-        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INOVATSION ISHLANMALAR</a>,
+        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INNOVATIVE WORKS</a>,
       },
       {
         key: '4',
-        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INOVATSION ISHLANMALAR</a>,
+        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INNOVATIVE WORKS</a>,
       },
     ],
   },
   {
     key: '6',
-    label: 'HALQARO ALOQALAR',
+    label: 'INTERNATIONAL RELATIONS',
     children: [
       {
         key: '1',
-        label: <a href="https://nammqi.uz/hamkorlik-ishlari">HAMKORLIK ISHLARI </a>,
+        label: <a href="https://nammqi.uz/hamkorlik-ishlari">COOPERATIVE AFFAIRS </a>,
       },
       {
         key: '2',
-        label: <a href="https://nammqi.uz/malaka-oshirish">MALAKA OSHIRISH VA QAYTA TAYYORLASH</a>,
+        label: <a href="https://nammqi.uz/malaka-oshirish">PROFESSIONAL DEVELOPMENT AND RE-TRAINING</a>,
       },
       {
         key: '3',
-        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INOVATSION ISHLANMALAR</a>,
+        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INNOVATIVE WORKS</a>,
       },
       {
         key: '4',
-        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INOVATSION ISHLANMALAR</a>,
+        label: <a href="https://nammqi.uz/inovatsion-ishlanmalar">INNOVATIVE WORKS</a>,
       },
     ],
   }
@@ -497,25 +497,25 @@ export const itemsEn = [
 
   [{
     key: '9',
-    title: "Ta`lim",
-    label: <a href="http://video.nammqi.uz/">VIDEODARSLAR</a>,
+    title: "Education",
+    label: <a href="http://video.nammqi.uz/">VIDEO LESSONS</a>,
   },
 
   {
     key: '9',
-    label: 'BAKALAVRIYAT',
+    label: 'BACHELORS DEGREE',
     children: [
       {
         key: '10',
-        label: <a href="https://nammqi.uz/call-center-studentam">TALABALARGA CALL CENTER</a>,
+        label: <a href="https://nammqi.uz/call-center-studentam">CALL CENTER FOR STUDENTS</a>,
       },
       {
         key: '11',
-        label: <a href="https://nammqi.uz/o-vnutrennix-procedurax-instituta-dlya-studentov-namisi">YO'RIQNOMA</a>,
+        label: <a href="https://nammqi.uz/o-vnutrennix-procedurax-instituta-dlya-studentov-namisi">INSTRUCTIONS</a>,
       },
       {
         key: '12',
-        label: <a href="http://tizim.nammqi.uz/dars-jadvali/">DARS JADVALI</a>,
+        label: <a href="http://tizim.nammqi.uz/dars-jadvali/">CLASS SCHEDULE</a>,
       },
     ],
 
@@ -523,7 +523,7 @@ export const itemsEn = [
 
   {
     key: '9',
-    label: <a href="https://nammqi.uz/magistratura">MAGISTIRATURA BO'LIMI</a>,
+    label: <a href="https://nammqi.uz/magistratura">GRADUATE DEPARTMENT</a>,
   },
 
   ],
@@ -532,20 +532,20 @@ export const itemsEn = [
 
   [{
     key: '13',
-    title: "Abiturient",
-    label: <a href="https://nammqi.uz/qabul-komissiyasi-1" >QABUL KOMISSIYASI</a>
+    title: "Applicant",
+    label: <a href="https://nammqi.uz/qabul-komissiyasi-1" >ADMISSION COMMISSION</a>
   },
   {
     key: '15',
-    label: <a href="https://nammqi.uz/korsatmalar" >KO'RSATMALAR</a>,
+    label: <a href="https://nammqi.uz/korsatmalar" >INSTRUCTIONS</a>,
   },
   {
     key: '16',
-    label: <a href="https://nammqi.uz/bakalavriat" > BAKALAVRIAT </a>,
+    label: <a href="https://nammqi.uz/bakalavriat" > BACHELOR'S DEGREE </a>,
   },
   {
     key: '17',
-    label: <a href="https://nammqi.uz/magistratura-2" >MAGISTIRATURA</a>,
+    label: <a href="https://nammqi.uz/magistratura-2" >MASTER'S DEGREE</a>,
   },
   ],
 
@@ -553,16 +553,16 @@ export const itemsEn = [
 
   [{
     key: '17',
-    title: "Yangiliklar",
-    label: <a href="https://nammqi.uz/news" >YANGILIKLAR</a>,
+    title: "News",
+    label: <a href="https://nammqi.uz/news" >NEWS</a>,
   },
   {
     key: '20',
-    label: <a href="https://nammqi.uz/elonlar" >E`LONLAR</a>,
+    label: <a href="https://nammqi.uz/elonlar" >ANNOUNCEMENTS</a>,
   },
   {
     key: '21',
-    label: <a href="https://nammqi.uz/galleries">FOTOGALEREYA</a>,
+    label: <a href="https://nammqi.uz/galleries">PHOTO GALLERY</a>,
   },
 
   ],
@@ -571,16 +571,16 @@ export const itemsEn = [
 
   [{
     key: '21',
-    title: "Bog`lanish",
-    label: <a href="https://nammqi.uz/contact" target="_self">ALOQA</a>
+    title: "Connection",
+    label: <a href="https://nammqi.uz/contact">COMMUNICATION</a>
   },
   {
     key: '23',
-    label: <a href="https://nammqi.uz/" target="_self">VIRTUAL QABULHONA</a>,
+    label: <a href="https://nammqi.uz/">VIRTUAL RECEPTION</a>,
   },
   {
     key: '24',
-    label: <a href="https://nammqi.uz/" target="_self">TELEFON RAQAMLAR</a>,
+    label: <a href="https://nammqi.uz/">PHONE NUMBERS</a>,
   },
   ],
 
@@ -606,10 +606,7 @@ export const dataSeven =[img7]
 export const dataEight =[img8]
 
 
-
-
-
-export const items = [
+export const tabitemsUz = [
   {
     key: '1',
     label: 'Show all',
@@ -657,6 +654,166 @@ export const items = [
     children: <TabInfoEight/>,
   },
 ];
+
+export const tabitemsRu = [
+  {
+    key: '1',
+    label: 'Show all',
+    children: <TabInfoAll/>,
+  },
+
+  {
+    key: '2',
+    label: 'O‘qituvchi va murabbiylar kuni',
+    children: <TabInfo/>,
+  },
+  {
+    key: '3',
+    label: 'Ayollarga qarshi tazyiq va zo‘ravonlik',
+    children: <TabInfoTwo/>,
+  },
+  {
+    key: '4',
+    label: 'GUITAR SHOW',
+    children: <TabInfoThree/>,
+  },
+  {
+    key: '5',
+    label: 'Yuragimdan o‘ting Vatanga',
+    children: <TabInfoFour/>,
+  },
+  {
+    key: '6',
+    label: '“Yangi nafas” yugurish musobaqasi',
+    children: <TabInfoFive/>,
+  },
+  {
+    key: '7',
+    label: 'Besh tashabbus olimpiadasi',
+    children: <TabInfoSix/>,
+  },
+  {
+    key: '8',
+    label: 'NamMQI koʼrgazmasi viloyat mehnat yarmarkasida',
+    children: <TabInfoSeven/>,
+  },
+  {
+    key: '9',
+    label: 'Yangi oʼquv yilining boshlanishi',
+    children: <TabInfoEight/>,
+  },
+];
+
+export const tabitemsEn = [
+  {
+    key: '1',
+    label: 'Show all',
+    children: <TabInfoAll/>,
+  },
+
+  {
+    key: '2',
+    label: 'O‘qituvchi va murabbiylar kuni',
+    children: <TabInfo/>,
+  },
+  {
+    key: '3',
+    label: 'Ayollarga qarshi tazyiq va zo‘ravonlik',
+    children: <TabInfoTwo/>,
+  },
+  {
+    key: '4',
+    label: 'GUITAR SHOW',
+    children: <TabInfoThree/>,
+  },
+  {
+    key: '5',
+    label: 'Yuragimdan o‘ting Vatanga',
+    children: <TabInfoFour/>,
+  },
+  {
+    key: '6',
+    label: '“Yangi nafas” yugurish musobaqasi',
+    children: <TabInfoFive/>,
+  },
+  {
+    key: '7',
+    label: 'Besh tashabbus olimpiadasi',
+    children: <TabInfoSix/>,
+  },
+  {
+    key: '8',
+    label: 'NamMQI koʼrgazmasi viloyat mehnat yarmarkasida',
+    children: <TabInfoSeven/>,
+  },
+  {
+    key: '9',
+    label: 'Yangi oʼquv yilining boshlanishi',
+    children: <TabInfoEight/>,
+  },
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const items = [
+//   {
+//     key: '1',
+//     label: 'Show all',
+//     children: <TabInfoAll/>,
+//   },
+
+//   {
+//     key: '2',
+//     label: 'O‘qituvchi va murabbiylar kuni',
+//     children: <TabInfo/>,
+//   },
+//   {
+//     key: '3',
+//     label: 'Ayollarga qarshi tazyiq va zo‘ravonlik',
+//     children: <TabInfoTwo/>,
+//   },
+//   {
+//     key: '4',
+//     label: 'GUITAR SHOW',
+//     children: <TabInfoThree/>,
+//   },
+//   {
+//     key: '5',
+//     label: 'Yuragimdan o‘ting Vatanga',
+//     children: <TabInfoFour/>,
+//   },
+//   {
+//     key: '6',
+//     label: '“Yangi nafas” yugurish musobaqasi',
+//     children: <TabInfoFive/>,
+//   },
+//   {
+//     key: '7',
+//     label: 'Besh tashabbus olimpiadasi',
+//     children: <TabInfoSix/>,
+//   },
+//   {
+//     key: '8',
+//     label: 'NamMQI koʼrgazmasi viloyat mehnat yarmarkasida',
+//     children: <TabInfoSeven/>,
+//   },
+//   {
+//     key: '9',
+//     label: 'Yangi oʼquv yilining boshlanishi',
+//     children: <TabInfoEight/>,
+//   },
+// ];
 
 
 

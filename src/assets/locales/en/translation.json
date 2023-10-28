@@ -1,9 +1,98 @@
 {
-  "mainCard": {
-    "news": "News",
-    "text1": "En Namangan muhandislik-qurilish instituti 'Qalqon' jamoatchilik guruhi faoliyati takomillashtirilmoqda"
+  "headerCard": {
+    "hemis": "Hemis (student)",
+    "hemises": "Hemis (teacher)",
+    "dars": "Lesson schedule",
+    "Electron": "Digital library",
+    "video": "Video lessons",
+    "moodle": "Moodle",
+    "dtm": "DTM",
+    "edu": "Contract.edu.uz",
+    "diplom": "Obtaining a duplicate diploma",
+    "tizim": "Rating system",
+    "rector": "@NamMQI_rectori",
+    "library": "Unilibrary is the only electronic library"
   },
-  "text": "Hemis (talaba)"
+  "Card": {
+    "title": "Faculties",
+    "text1": "FACULTY OF ECONOMICS AND MANAGEMENT",
+    "text2": "FACULTY OF ENERGY AND OCCUPATIONAL SAFETY",
+    "text3": "FACULTY OF MECHANICAL ENGINEERING",
+    "text4": "FACULTY OF TRANSPORTATION",
+    "text5": "FACULTY OF ENGINEERING COMMUNICATIONS",
+    "text6": "FACULTY OF INDUSTRIAL INFORMATION",
+    "text7": "FACULTY OF CONSTRUCTION"
+  },
+  "CardSecond": {
+    "title": "Talented students",
+    "text1": "Karimov Akhrorbek (26-ATT-22)",
+    "text2": "Tukhtasinov Shokhrukh (26-ATT-20)",
+    "text3": "Sharifi Hadadaitillo (42-ATT-22)",
+    "text4": "Jalloliddinov Nizamjon (8-ATT-21)"
+  },
+  "About": {
+    "aboutuviversty1": "1979 – Namangan branch of the Tashkent Polytechnic Institute",
+    "aboutuviversty2": "1989 – Namangan branch of the Tashkent Mechanical Engineering Institute",
+    "aboutuviversty3": "1991 – Namangan Industrial and Technological Institute",
+    "aboutuviversty4": "1998 – Namangan Engineering and Pedagogical Institute",
+    "aboutuviversty5": "2017 – Namangan Institute of Civil Engineering"
+  },
+  "MainCard": {
+    "title": "News",
+    "news2": "An event was held on this occasion",
+    "news3": "A memorandum of cooperation was signed between NamMQI and the Belarusian State University of Transport",
+    "news4": "The opening ceremony of the conference of university rectors of Uzbekistan and Belarus took place in Minsk",
+    "news5": "President Shavkat Mirziyoyev went to the Kashkadarya region to get acquainted with the development of the regions and the life of the population",
+    "news6": "The regional stage of streetball has ended. NamMQI teams took prizes",
+    "news7": "Currently, an international forum on the topic “Youth Rights: Opportunities and Protection Mechanisms” is being held in Tashkent",
+    "news8": "The NamMQI representative was awarded the Active Researcher badge",
+    "news9": "An entertainment program “Student Evening” was held with young people living in student dormitory No. 1 of the Namangan Civil Engineering Institute",
+    "news10": "A presentation of the collection “Hilal” took place, the author of the project was the Deputy Dean of NamMKI",
+    "news11": "The NamMQI team took third place in the regional round of the Five Initiatives Olympiad in volleyball",
+    "news12": "The minister's gift was presented to the trainee teacher",
+    "news13": "Currently, the international forum “Youth Rights: Opportunities and Protection Mechanisms” is taking place in Tashkent."
+  },
+  "Elons": {
+    "title": "Announcements",
+    "news2": "The 'Rector's Cup' mini-football competition was started at the institute",
+    "news3": "More",
+    "news4": "ATTENTION, NOTICE",
+    "news5": "More",
+    "news6": "Are you ready for the national language test?",
+    "news7": "More",
+    "news8": "It is planned to train 1,000 students for the international IELTS certificate free of charge",
+    "news9": "More",
+    "news10": "The deadline for accepting documents for doctoral studies and independent research for 2024 has been extended!",
+    "news11": "More",
+    "news12": "ANNOUNCEMENT!!!",
+    "news13": "More",
+    "news14": "'El-yurt umidi' fund announces the 2nd open scholarship contest of 2023!",
+    "news15": "More",
+    "news16": "ATTENTION, NOTICE",
+    "news17": "More",
+    "news18": "The discussion of receiving the scientific degree of doctor of philosophy (PhD) of Mirolimjon Murodiljonovich Hakimov",
+    "news19": "More",
+    "news20": "Are you going to work or study in Korea?",
+    "news21": "More",
+    "news22": "ANNOUNCEMENT!!!",
+    "news23": "More",
+    "news24": "ANNOUNCEMENT!!!",
+    "news25": "More"
+  },
+  "Counter": {
+    "count1": "Professor teachers",
+    "count2": "Number of students",
+    "count3": "Graduates",
+    "count4": "Book fund"
+  },
+  "Footer": {
+    "footer1": "12 Islam Karimov St",
+    "footer2": "Galleries",
+    "footer3": "© 2022 Namangan Institute of Engineering and Construction. All rights reserved."
+  }
+
+
+
 
   
 }
