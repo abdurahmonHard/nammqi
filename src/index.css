@@ -138,20 +138,20 @@ html {
 }
 
 
-@media (min-width: 300px){
+@media (min-width: 250px){
   .main_cards_container{
     display: flex;
     justify-content: space-between;
   }
 
   .main_card {
-      width: 600px !important;
-      margin-left: 2px !important;
+      width: 589px !important;
+      /* margin-left: 2px !important; */
       margin: auto;
   }
 
   .main_cards_container{
-    width: 95% !important; 
+    width: 90% !important; 
     margin: 0 auto;
   }
 
