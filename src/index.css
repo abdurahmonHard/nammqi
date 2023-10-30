@@ -63,7 +63,7 @@ html {
 
 
 
-@media (max-width: 1287px){
+@media (max-width: 1288px){
   .main_cards_container{
     width: 95%;
     max-width: 1100px;
@@ -71,7 +71,7 @@ html {
   }
 
   .main_card {
-      width: 249px !important;
+      width: 253px !important;
       
   }
 
@@ -82,7 +82,7 @@ html {
 
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1220px){
   .main_cards_container{
     max-width: 950px !important;
     margin: 0 auto;
@@ -138,4 +138,22 @@ html {
 }
 
 
+@media (min-width: 300px){
+  .main_cards_container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main_card {
+      width: 600px !important;
+      margin-left: 2px !important;
+      margin: auto;
+  }
+
+  .main_cards_container{
+    width: 95% !important; 
+    margin: 0 auto;
+  }
+
+}
 
