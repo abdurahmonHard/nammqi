@@ -20,7 +20,7 @@ const Footer = ()=>{
         <div className="footer-items flex w-[94%] m-auto pt-[100px] pb-[60px]">
           <div className="footer-contact px-3 h-[282px]" >
             <div className="footer-icon w-[359px] h-[90px]">
-              <img src={logoUz} alt="img"/>
+              <img className='w-96' src={t("Navbar.logo")} alt='logo'/>
             </div>
             <footer className="mt-8">
               <ul>

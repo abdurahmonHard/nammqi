@@ -17,13 +17,13 @@ const Card =()=>{
   const { t } = useTranslation();
   return(
     <div className="main-content">
-      <div className="container w-full bg-[#f5f8fa] py-6 ">
+      <div className="w-full m-0 bg-[#f5f8fa] py-6 ">
         <div className="card-title text-center">
           <h3 className="text-[#6c5ebf] pb-5 text-4xl font-bold leading-10">
             {t("Card.title")}
           </h3>
         </div>
-        <div className="cards flex flex-wrap w-[94%] m-auto">
+        <div className="flex flex-wrap w-[94%] m-auto">
           <div className="px-3.5">
             <div className="w-[16.8rem] h-[330px] px-6 py-8 mb-7  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_2px_rgba(0,0,0,0.2)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
@@ -116,10 +116,10 @@ const Card =()=>{
           </div>
         </div>
       </div>
-
+{/* //////////////////////////////////////////// */}
         <div className="container-indicator">
           <div className="institute-indicator-img w-11/12 m-auto pt-5 pb-28">
-            <img className="w-[74.5%] h-auto" src={fonli} alt="img"/>
+            <img className="w-[74.5%] h-auto" src={t("content.contentImg")} alt="img"/>
           </div>
         </div>
         <div>

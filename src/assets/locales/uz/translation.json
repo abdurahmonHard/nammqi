@@ -92,9 +92,11 @@
     "footer1": "Islom Karimov ko`chasi 12-uy",
     "footer2": "Galereyalar",
     "footer3": "© 2022 Namangan muhandislik-qurilish instituti. Barcha huquqlar himoyalangan."
+  },
+  "Navbar": {
+    "logo": "https://nammqi.uz/storage/general/logo-uz.png"
+  },
+  "content": {
+    "contentImg": "https://nammqi.uz/storage/infograph/fonli.png"
   }
-
-
-
-
 }

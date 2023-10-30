@@ -606,6 +606,8 @@ export const dataSeven =[img7]
 export const dataEight =[img8]
 
 
+
+
 export const tabitemsUz = [
   {
     key: '1',
@@ -658,48 +660,48 @@ export const tabitemsUz = [
 export const tabitemsRu = [
   {
     key: '1',
-    label: 'Show all',
+    label: 'Показать все',
     children: <TabInfoAll/>,
   },
 
   {
     key: '2',
-    label: 'O‘qituvchi va murabbiylar kuni',
+    label: 'День учителей и тренеров',
     children: <TabInfo/>,
   },
   {
     key: '3',
-    label: 'Ayollarga qarshi tazyiq va zo‘ravonlik',
+    label: 'Преследование и насилие в отношении женщин',
     children: <TabInfoTwo/>,
   },
   {
     key: '4',
-    label: 'GUITAR SHOW',
+    label: 'ГИТАРА ШОУ',
     children: <TabInfoThree/>,
   },
   {
     key: '5',
-    label: 'Yuragimdan o‘ting Vatanga',
+    label: 'Иди от сердца моего к Родине',
     children: <TabInfoFour/>,
   },
   {
     key: '6',
-    label: '“Yangi nafas” yugurish musobaqasi',
+    label: 'Соревнования по бегу «Новое дыхание»',
     children: <TabInfoFive/>,
   },
   {
     key: '7',
-    label: 'Besh tashabbus olimpiadasi',
+    label: 'Олимпиада пяти инициатив',
     children: <TabInfoSix/>,
   },
   {
     key: '8',
-    label: 'NamMQI koʼrgazmasi viloyat mehnat yarmarkasida',
+    label: 'Выставка NamMQI на региональной ярмарке труда',
     children: <TabInfoSeven/>,
   },
   {
     key: '9',
-    label: 'Yangi oʼquv yilining boshlanishi',
+    label: 'Начало нового учебного года',
     children: <TabInfoEight/>,
   },
 ];
@@ -713,42 +715,42 @@ export const tabitemsEn = [
 
   {
     key: '2',
-    label: 'O‘qituvchi va murabbiylar kuni',
+    label: 'Day of teachers and coaches',
     children: <TabInfo/>,
   },
   {
     key: '3',
-    label: 'Ayollarga qarshi tazyiq va zo‘ravonlik',
+    label: 'Violence and abuse against women',
     children: <TabInfoTwo/>,
   },
   {
     key: '4',
-    label: 'GUITAR SHOW',
+    label: 'THIS IS THE GUITAR',
     children: <TabInfoThree/>,
   },
   {
     key: '5',
-    label: 'Yuragimdan o‘ting Vatanga',
+    label: 'My heart goes to the Motherland',
     children: <TabInfoFour/>,
   },
   {
     key: '6',
-    label: '“Yangi nafas” yugurish musobaqasi',
+    label: '"New breath" running competition',
     children: <TabInfoFive/>,
   },
   {
     key: '7',
-    label: 'Besh tashabbus olimpiadasi',
+    label: 'Olympiad of five initiatives',
     children: <TabInfoSix/>,
   },
   {
     key: '8',
-    label: 'NamMQI koʼrgazmasi viloyat mehnat yarmarkasida',
+    label: 'NamMQI exhibition at the regional labor fair',
     children: <TabInfoSeven/>,
   },
   {
     key: '9',
-    label: 'Yangi oʼquv yilining boshlanishi',
+    label: 'The beginning of the new academic year',
     children: <TabInfoEight/>,
   },
 ];

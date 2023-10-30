@@ -89,6 +89,12 @@
     "footer1": "12 Islam Karimov St",
     "footer2": "Galleries",
     "footer3": "© 2022 Namangan Institute of Engineering and Construction. All rights reserved."
+  },
+  "Navbar": {
+    "logo": "https://nammqi.uz/storage/general/logo-en-2.png"
+  },
+  "content": {
+    "contentImg": "https://nammqi.uz/storage/infograph/new-eng.png"
   }
 
 

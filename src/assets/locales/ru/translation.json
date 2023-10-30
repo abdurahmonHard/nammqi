@@ -90,5 +90,11 @@
     "footer1": "ул. Ислама Каримова, 12",
     "footer2": "Галереи",
     "footer3": "© 2022 Наманганский инженерно-строительный институт. Все права защищены"
+  },
+  "Navbar": {
+    "logo": "https://nammqi.uz/storage/general/logo-ru.png"
+  },
+  "content": {
+    "contentImg": "https://nammqi.uz/storage/infograph/fonli.png"
   }
 }

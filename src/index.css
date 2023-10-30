@@ -55,4 +55,87 @@ html {
   scroll-behavior: smooth;
 }
 
+.main_cards_container{
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+
+@media (max-width: 1287px){
+  .main_cards_container{
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .main_card {
+      width: 249px !important;
+      
+  }
+
+  .main_cards_container{
+    width: 90%; 
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 1200px){
+  .main_cards_container{
+    max-width: 950px !important;
+    margin: 0 auto;
+  }
+
+  .main_card {
+      width: 212px !important;
+      
+  }
+
+  .main_cards_container{
+    width: 95% !important; 
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 981px){
+  .main_cards_container{
+    max-width: 720px !important;
+    margin: 0 auto;
+  }
+
+  .main_card {
+      width: 220px !important;
+  }
+
+  .main_cards_container{
+    width: 95% !important; 
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 755px){
+  .main_cards_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 580px !important;
+    margin: 0 auto;
+  }
+
+  .main_card {
+      width: 275px !important;
+  }
+
+  .main_cards_container{
+    width: 95% !important; 
+    margin: 0 auto;
+  }
+
+}
+
+
 

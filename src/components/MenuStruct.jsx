@@ -4,7 +4,6 @@ import { Dropdown, Space } from 'antd';
 import {itemsUz, itemsRu, itemsEn} from '../MenuData'
 import i18n from '../i18n';
 import { useTranslation } from "react-i18next";
-import i18next from 'i18next';
 
 const MenuStruct = () => {
   const { t } = useTranslation();
