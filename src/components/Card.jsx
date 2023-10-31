@@ -26,7 +26,7 @@ const Card =()=>{
         <div className="w-full"> 
           <div className="second_main_container">
             <div className="second_card_item flex flex-wrap gap-7 box-border pb-16">
-            <div className="">
+            <div className="second_card_main">
               <div className="second_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 p-6  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_2px_rgba(0,0,0,0.2)] bg-[#fff]">
                 <div className="w-full flex justify-center">
                   <a href='https://student.nammqi.uz/dashboard/login' >
@@ -43,7 +43,7 @@ const Card =()=>{
               </div>
             </div>
 
-            <div className="">
+            <div className="second_card_main">
               <div className="second_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 p-6  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_2px_rgba(0,0,0,0.2)] bg-[#fff]">
                 <div className="w-full flex justify-center">
                   <a href='https://student.nammqi.uz/dashboard/login' >
@@ -60,7 +60,7 @@ const Card =()=>{
               </div>
             </div>
 
-            <div className="">
+            <div className="second_card_main">
               <div className="second_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 p-6  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_2px_rgba(0,0,0,0.2)] bg-[#fff]">
                 <div className="w-full flex justify-center"> 
                   <a href='https://student.nammqi.uz/dashboard/login' >
@@ -77,7 +77,7 @@ const Card =()=>{
               </div>
             </div>
 
-            <div className="">
+            <div className="second_card_main">
               <div className="second_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 p-6  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_2px_rgba(0,0,0,0.2)] bg-[#fff]">
                 <div className="w-full flex justify-center">
                   <a href='https://student.nammqi.uz/dashboard/login' >
@@ -94,7 +94,7 @@ const Card =()=>{
               </div>
             </div>
 
-            <div className="">
+            <div className="second_card_main">
               <div className="second_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 p-6  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_2px_rgba(0,0,0,0.2)] bg-[#fff]">
                 <div className="w-full flex justify-center  ">
                   <a href='https://student.nammqi.uz/dashboard/login' >
@@ -111,7 +111,7 @@ const Card =()=>{
               </div>
             </div>
 
-            <div className="">
+            <div className="second_card_main">
               <div className="second_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 p-6  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_2px_rgba(0,0,0,0.2)] bg-[#fff]">
                 <div className="w-full  flex justify-center ">
                   <a href='https://student.nammqi.uz/dashboard/login' >
@@ -128,7 +128,7 @@ const Card =()=>{
               </div>
             </div>
 
-            <div className="">
+            <div className="second_card_main">
               <div className="second_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 p-6  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_2px_rgba(0,0,0,0.2)] bg-[#fff]">
                 <div className="w-full flex justify-center ">
                   <a href='https://student.nammqi.uz/dashboard/login' >
@@ -175,7 +175,7 @@ const Card =()=>{
         <div className="w-full">
           <div className="main_cards_container">
             <div className="flex justify-between flex-wrap gap-7 box-border pb-16">
-              <div className="">
+              <div className="card_mains">
                 <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56 py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
                   <a href='https://student.nammqi.uz/dashboard/login' >
                     <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -191,7 +191,7 @@ const Card =()=>{
                   </h5>
                 </div>
               </div>
-              <div className="">
+              <div className="card_mains">
                 <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56 py-8 text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
                   <a href='https://student.nammqi.uz/dashboard/login' >
                     <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -207,7 +207,7 @@ const Card =()=>{
                   </h5>
                 </div>
               </div>
-              <div className="">
+              <div className="card_mains">
                 <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56 py-8 text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
                   <a href='https://student.nammqi.uz/dashboard/login'>
                     <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -223,7 +223,7 @@ const Card =()=>{
                   </h5>
                 </div>
               </div>
-              <div className="">
+              <div className="card_mains">
                 <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56 py-8 text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
                   <a href='https://student.nammqi.uz/dashboard/login'>
                     <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">

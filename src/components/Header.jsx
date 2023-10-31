@@ -13,26 +13,26 @@ const Header = () => {
   const { t } = useTranslation();
   return (
     <div>
-      <header className="Container">
+      <header className="Container w-full">
         <Carousel autoplay>
-          <div>
-            <span className="object-cover text-white  text-center bg-current" >
-              <img className="h-screen w-full " src={image1} alt='img'/>
+          <div className='header_content'>
+            <span className="object-cover text-white   text-center bg-current" >
+              <img className="header_img h-screen w-full " src={image1} alt='img'/>
             </span>
           </div>
-          <div>
+          <div className='header_content '>
             <span className="object-cover text-white  text-center bg-current" >
-              <img className="h-screen w-full" src={image2} alt='img'/>
+              <img className="header_img h-screen w-full" src={image2} alt='img'/>
             </span>
           </div>
-          <div>
+          <div className='header_content '>
             <span  className="object-cover text-white  text-center bg-current" >
-              <img className="h-screen w-full" src={image3} alt='img'/>
+              <img className="header_img h-screen w-full" src={image3} alt='img'/>
             </span>
           </div>
-          <div>
+          <div className='header_content '>
             <span className="object-cover text-white  text-center bg-current" >
-              <img className="h-screen w-full" src={image4} alt='img'/>
+              <img className="header_img h-screen w-full" src={image4} alt='img'/>
             </span>
           </div>
         </Carousel>
@@ -52,8 +52,8 @@ const Header = () => {
       <div  className='w-full'>
         <div className='main_cards_container'>
         <div className="first_card flex justify-between flex-wrap gap-7 box-border pb-16">
-          <div className="">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
+            <div className="card_mains">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
                   <ul className="bg-[#add546] w-full h-full rounded-[100%] leading-[6rem]">
@@ -68,7 +68,8 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -84,7 +85,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#6CABB8] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -100,7 +101,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#6c5ebf] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -116,7 +117,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -132,7 +133,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -148,7 +149,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -164,7 +165,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -180,7 +181,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -196,7 +197,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -212,7 +213,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8   text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">
@@ -228,7 +229,7 @@ const Header = () => {
               </h5>
             </div>
           </div>
-          <div className="">
+          <div className="card_mains">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >
                 <button className="p-1 outline-offset-4 outline-dashed outline-[3px] outline-[#add546] rounded-[100%] w-[7rem] h-[7rem] mb-5">

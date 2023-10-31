@@ -16,8 +16,8 @@
 .ant-tabs-nav-list{
   display: flex;
   flex-wrap: wrap;
-  width: 90% !important;
-  margin: 0 auto;
+  /* width: 90% !important;
+  margin: 0 auto; */
 
 }
 
@@ -28,23 +28,6 @@
 }
 
 
-.ant-tabs-nav-list{
-  width: 500px !important;
-  /* width: 0 !important; */
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.ant-tabs-nav-wrap::before{
-  width: 0 !important;
-}
-
-.ant-tabs-nav-wrap::after{
-  width: 200px !important;
-  flex: none;
-  display: none;
-  display: block;
-}
 
 
 .ant-tabs-ink-bar-animated{
@@ -62,4 +45,3 @@
 
 
    
-/* ant-tabs ant-tabs-top  */
