@@ -51,7 +51,7 @@ const Header = () => {
 
       <div  className='w-full'>
         <div className='main_cards_container'>
-        <div className=" flex justify-between flex-wrap gap-7 box-border pb-16">
+        <div className="first_card flex justify-between flex-wrap gap-7 box-border pb-16">
           <div className="">
             <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-56  py-8  text-center shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] bg-[#fff]">
               <a href='https://student.nammqi.uz/dashboard/login' >

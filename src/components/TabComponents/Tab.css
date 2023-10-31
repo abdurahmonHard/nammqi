@@ -6,7 +6,6 @@
 .Tab-Container{
   display: flex !important;
   flex-wrap: wrap !important;
-  /* justify-content: space-between !important; */
   gap: 28px;
   width: 90% !important;
   margin: 0 auto;
@@ -17,7 +16,7 @@
 .ant-tabs-nav-list{
   display: flex;
   flex-wrap: wrap;
-  width: 80% !important;
+  width: 90% !important;
   margin: 0 auto;
 
 }
@@ -28,10 +27,25 @@
   font-size: 18px;
 }
 
-.ant-tabs-nav-wrap{
-  border-width: 0 !important;
-  border: none !important;
+
+.ant-tabs-nav-list{
+  width: 500px !important;
+  /* width: 0 !important; */
+  margin: 0 !important;
+  padding: 0 !important;
 }
+
+.ant-tabs-nav-wrap::before{
+  width: 0 !important;
+}
+
+.ant-tabs-nav-wrap::after{
+  width: 200px !important;
+  flex: none;
+  display: none;
+  display: block;
+}
+
 
 .ant-tabs-ink-bar-animated{
   border-width: 0 !important;
@@ -45,3 +59,7 @@
   margin-bottom: 100px;
 
 }
+
+
+   
+/* ant-tabs ant-tabs-top  */

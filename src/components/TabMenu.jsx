@@ -26,16 +26,20 @@ const TabMenu = () => {
   }, [i18n.language])
 
   return (
-    <div className='Tab-container'>
-      <div className='w-full'>
-        <h3 className='font-bold text-[#6c5ebf] text-4xl mb-2.5 text-center'>Fotogallereya</h3>
+    <div className='w-full'>
+      <div className=''>
+        <div className='Tab-container'>
+          <div className='w-full'>
+            <h3 className='font-bold text-[#6c5ebf] text-4xl mb-2.5 text-center'>Fotogallereya</h3>
+          </div>
+          <Tabs className='Tab_content text-[#696969]'
+            defaultActiveKey="1"
+            items={items}
+            onChange={onChange}
+            indicatorSize={(origin) => origin - 16}
+          />
+        </div>
       </div>
-      <Tabs className='text-[#696969]'
-        defaultActiveKey="1"
-        items={items}
-        onChange={onChange}
-        indicatorSize={(origin) => origin - 16}
-      />
     </div>
   )
 };
