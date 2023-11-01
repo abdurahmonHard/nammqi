@@ -16,6 +16,7 @@ const Counter = () => {
       }, 1000);
     }
   }
+
   const counter2 = async (minimum, maximum) => {
     for (let count = minimum; count <= maximum; count++) {
       await setTimeout(() => {
@@ -23,6 +24,7 @@ const Counter = () => {
       }, 1000);
     }
   }
+
   const counter3 = async (minimum, maximum) => {
     for (let count = minimum; count <= maximum; count++) {
       await setTimeout(() => {
@@ -30,6 +32,7 @@ const Counter = () => {
       }, 1000);
     }
   }
+  
   const counter4 = async (minimum, maximum) => {
     for (let count = minimum; count <= maximum; count++) {
       await setTimeout(() => {
@@ -46,10 +49,10 @@ const Counter = () => {
   }, [])
 
   return (
-    <div className="w-full">
-      <div className="">
+    <div>
+      <div className="w-full">
         <div className="pb-32 pt-4">
-          <div className=" relative">
+          <div className="relative">
             <img className="counter-items bg-cover bg-center object-cover h-[235px]  w-full" src={achivements} alt="img" />
             <div className="counter_content absolute bg-[rgba(0,0,0,.7)] w-full bottom-0 left-0">
               <div className="counters flex justify-between items-center w-[90%] h-[235px] m-auto py-5 ">

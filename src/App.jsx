@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 const App = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
 
-  // Function to update the scroll position
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position);

@@ -25,14 +25,13 @@ import imgs8 from '../assets/images/imgs8.jpg'
 import imgs9 from '../assets/images/imgs9.jpg'
 import imgs10 from '../assets/images/imgs10.jpg'
 import imgs11 from '../assets/images/imgs11.jpg'
-import Tab from "./TabMenu";
 import TabMenu from "./TabMenu";
 
 import { useTranslation } from "react-i18next";
 
 
 
-const MainCard =()=>{
+const MainCard = () => {
   const { t } = useTranslation();
   return(
     <>
@@ -45,10 +44,10 @@ const MainCard =()=>{
           <div className="w-full">
             <div className="main_cards_container">
               <div className="text-center flex justify-between flex-wrap gap-7 box-border w-full pt-5 pb-4 ">
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto  shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img1} alt="img" />
                       </div>
                     </a>
@@ -71,11 +70,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto  shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img2} alt="img" />
                       </div>
                     </a>
@@ -98,11 +96,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto   shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img3} alt="img" />
                       </div>
                     </a>
@@ -125,11 +122,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto  shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img4} alt="img" />
                       </div>
                     </a>
@@ -152,11 +148,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto   shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img5} alt="img" />
                       </div>
                     </a> 
@@ -179,11 +174,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto   shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img6} alt="img" />
                       </div>
                     </a>
@@ -206,11 +200,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto   shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img7} alt="img" />
                       </div>
                     </a>
@@ -233,11 +226,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto   shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img8} alt="img" />
                       </div>
                     </a>
@@ -260,11 +252,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3   shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img9} alt="img" />
                       </div>
                     </a>
@@ -287,11 +278,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3  shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img10} alt="img" />
                       </div>
                     </a>
@@ -314,11 +304,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3  shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img11} alt="img" />
                       </div>
                     </a>
@@ -341,11 +330,10 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="card_mains">
                   <div className="main_card w-[16.8rem] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-auto   shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] hover:shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] bg-[#fff]">
                     <a href='https://student.nammqi.uz/dashboard/login'>
-                      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                      <div className="new_card_img relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                         <img className="transition duration-300 ease-in-out hover:scale-110" src={img12} alt="img" />
                       </div>
                     </a>
@@ -372,8 +360,7 @@ const MainCard =()=>{
             </div>
           </div>
 
-{/* ELONLAR CARDS */}
-
+        {/* ELONLAR CARDS */}
 
         <div className="elonlar-card w-full bg-[#f5f8fa] py-3">
           <div className="card-title text-center pt-3">
@@ -382,22 +369,22 @@ const MainCard =()=>{
             </h3>
           </div>
           <div className="w-full">
-            <div className=" elonlar_card_container">
+            <div className="elonlar_card_container">
               <div className="flex justify-between flex-wrap gap-7 box-border pb-16">
-                <div className="">
-                  <div className="elon_card w-[367.3px] h-[530px]    shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div>
+                <div className="elonlar_card">
+                  <div className="elon_card w-[367.3px] h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
+                    <div className="elon_card_img">
                       <img src={imgs1} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news2")}
                         </h5>
                       </div>
-                      <div >
-                        <div className="kalendar pb-3.5">
+                      <div>
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -409,21 +396,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
-                  <div className="elon_card w-[367.3px] h-[530px]   shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div>
+                <div className="elonlar_card">
+                  <div className="elon_card w-[367.3px] h-[530px] shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
+                    <div className="elon_card_img">
                       <img src={imgs2} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news4")}
                         </h5>
                       </div>
-                      <div className="">
-                        <div className="kalendar pb-3.5">
+                      <div>
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -435,21 +421,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] h-[530px]   shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img src={imgs3} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news6")}
                         </h5>
                       </div>
-                      <div className="">
-                        <div className="kalendar pb-3.5">
+                      <div>
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -461,21 +446,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img src={imgs4} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news8")}
                         </h5>
                       </div>
-                      <div >
-                        <div className="kalendar pb-3.5">
+                      <div>
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -487,21 +471,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img src={imgs5} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news10")}
                         </h5>
                       </div>
                       <div>
-                        <div className="kalendar pb-3.5">
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -513,21 +496,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img src={imgs6} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news12")}
                         </h5>
                       </div>
-                      <div >
-                        <div className="kalendar pb-3.5">
+                      <div>
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -539,21 +521,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img src={imgs8} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news14")}
                         </h5>
                       </div>
                       <div >
-                        <div className="kalendar pb-3.5">
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -565,21 +546,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img src={imgs9} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news16")}
                         </h5>
                       </div>
-                      <div >
-                        <div className="kalendar pb-3.5">
+                      <div>
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -591,21 +571,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img className="w-full h-[280px]"  src={imgs10} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news18")}
                         </h5>
                       </div>
-                      <div >
-                        <div className="kalendar pb-3.5">
+                      <div>
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center "><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -617,21 +596,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img className="w-full h-[300px]" src={imgs11} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news20")}
                         </h5>
                       </div>
                       <div >
-                        <div className="kalendar pb-3.5">
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center "><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -643,21 +621,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-[530px]  shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div >
+                    <div className="elon_card_img">
                       <img  src={imgs7} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news22")}
                         </h5>
                       </div>
                       <div >
-                        <div className="kalendar pb-3.5">
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">
@@ -669,21 +646,20 @@ const MainCard =()=>{
                     </div>
                   </div>
                 </div>
-
-                <div className="">
+                <div className="elonlar_card">
                   <div className="elon_card w-[367.3px] flex flex-col box-border min-w-260 overflow-hidden max-w-275  max-md:-3 h-[530px] shadow-[0_0_20px_1px_rgba(0,0,0,0.2)] transition duration-500 ease-in-out hover:shadow-[0_0_20px_15px_rgba(0,0,0,0.1)] gray:hover:shadow-gray/50 bg-[#fff]">
-                    <div className="">
-                      <img className="" src={olatiImg} alt="img" 
+                    <div className="elon_card_img">
+                      <img src={olatiImg} alt="img" 
                       />
                     </div>
                     <div className="p-6">
-                      <div>
+                      <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news24")}
                         </h5>
                       </div>
-                      <div className="">
-                        <div className="kalendar pb-3.5">
+                      <div>
+                        <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
                         <div className="card-button">

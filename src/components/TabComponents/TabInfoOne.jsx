@@ -1,7 +1,6 @@
 import React from "react"
 import {data} from '../../MenuData'
 
-
 const TabInfo = () => {
   return (
     <div className="Tab-Container">

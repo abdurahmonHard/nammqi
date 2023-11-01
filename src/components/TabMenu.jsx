@@ -27,7 +27,7 @@ const TabMenu = () => {
 
   return (
     <div className='w-full'>
-      <div className=''>
+      <div className='Tab_main_container'>
         <div className='Tab-container'>
           <div className='w-full'>
             <h3 className='font-bold text-[#6c5ebf] text-4xl mb-2.5 text-center'>Fotogallereya</h3>
@@ -43,10 +43,6 @@ const TabMenu = () => {
     </div>
   )
 };
-
-
-
-
 
 export default TabMenu;
 

@@ -1,9 +1,5 @@
 import Header from './Header';
 import MenuStruct from "./MenuStruct";
-// import logoUz from '../assets/images/logoUz.png'
-// import logoRu from '../assets/images/achievements.jpg'
-// import logoEn from '../assets/images/dudImg.jpg'
-// import i18n from '../i18n';
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
@@ -22,7 +18,6 @@ const Navbar = () => {
       </div>
       <Header/>
     </div>
-    
   );
 };
 

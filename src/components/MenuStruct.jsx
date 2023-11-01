@@ -37,20 +37,13 @@ useEffect(()=> {
 },[i18n.language])
   return <>
     <div className="flex">
-    {/* {i18next
-                .t("navData.faoliyat", { returnObjects: true })
-                .map((item, i) => (
-                  <MenuStructChild items={item} key={i} />
-                ))} */}
       {items?.map((item, i) => {
         return <MenuStructChild items={item} key={i} />
       })}
       <div className="flex py-6 px-3.5 box-border w-[100px]">
-        {/* <h1 onClick={selectUzb}>Uzb</h1> */}
         {i18n.language !== 'ru' && <button className="text-white border-r-2 px-2 w-12" onClick={selectRu}>Ru</button>}
         {i18n.language !== 'uz' && <button className={`text-white px-2 w-12 ${i18n.language === 'en' ? '':'border-r-2'}`} onClick={selectUz}>Uz</button>}
         {i18n.language !== 'en' && <button className="text-white pl-2" onClick={selectEng}>Eng</button>}
-        {/* <h1>{t("navData.mainPage")}</h1> */}
       </div>
     </div>
   </>

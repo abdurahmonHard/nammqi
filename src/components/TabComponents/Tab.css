@@ -16,9 +16,6 @@
 .ant-tabs-nav-list{
   display: flex;
   flex-wrap: wrap;
-  /* width: 90% !important;
-  margin: 0 auto; */
-
 }
 
 .ant-tabs-tab-btn{

@@ -22,7 +22,6 @@ import img8 from './assets/images/images8.jpg'
 
 
 export const itemsUz = [
-
   [
     {
       key: '1',
@@ -210,7 +209,6 @@ export const itemsUz = [
 ]
 
 export const itemsRu = [
-
   [
     {
       key: '1',
@@ -399,7 +397,6 @@ export const itemsRu = [
 ]
 
 export const itemsEn = [
-
   [
     {
       key: '1',
@@ -587,7 +584,7 @@ export const itemsEn = [
 ]
 
 
-export const dataAll = [img1,img2,img3,img4,img5,img6,img7,img8]
+export const dataAll = [img1, img2, img3, img4, img5, img6, img7, img8]
 
 export const data = [img1]
 
@@ -606,15 +603,12 @@ export const dataSeven =[img7]
 export const dataEight =[img8]
 
 
-
-
 export const tabitemsUz = [
   {
     key: '1',
     label: 'Show all',
     children: <TabInfoAll/>,
   },
-
   {
     key: '2',
     label: 'O‘qituvchi va murabbiylar kuni',
@@ -663,7 +657,6 @@ export const tabitemsRu = [
     label: 'Показать все',
     children: <TabInfoAll/>,
   },
-
   {
     key: '2',
     label: 'День учителей и тренеров',
@@ -712,7 +705,6 @@ export const tabitemsEn = [
     label: 'Show all',
     children: <TabInfoAll/>,
   },
-
   {
     key: '2',
     label: 'Day of teachers and coaches',
