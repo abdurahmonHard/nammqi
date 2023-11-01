@@ -383,7 +383,7 @@ const MainCard = () => {
                           {t("Elons.news2")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -402,13 +402,13 @@ const MainCard = () => {
                       <img src={imgs2} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news4")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -427,13 +427,13 @@ const MainCard = () => {
                       <img src={imgs3} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news6")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -452,13 +452,13 @@ const MainCard = () => {
                       <img src={imgs4} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news8")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -477,13 +477,13 @@ const MainCard = () => {
                       <img src={imgs5} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news10")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -502,13 +502,13 @@ const MainCard = () => {
                       <img src={imgs6} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news12")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -527,13 +527,13 @@ const MainCard = () => {
                       <img src={imgs8} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news14")}
                         </h5>
                       </div>
-                      <div >
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -552,13 +552,13 @@ const MainCard = () => {
                       <img src={imgs9} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news16")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -577,13 +577,13 @@ const MainCard = () => {
                       <img className="w-full h-[280px]"  src={imgs10} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news18")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center "><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -602,13 +602,13 @@ const MainCard = () => {
                       <img className="w-full h-[300px]" src={imgs11} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news20")}
                         </h5>
                       </div>
-                      <div >
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center "><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -627,13 +627,13 @@ const MainCard = () => {
                       <img  src={imgs7} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news22")}
                         </h5>
                       </div>
-                      <div >
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
@@ -652,13 +652,13 @@ const MainCard = () => {
                       <img src={olatiImg} alt="img" 
                       />
                     </div>
-                    <div className="p-6">
+                    <div className=" p-6">
                       <div className="elon_text">
                         <h5 className="text-base font-bold text-[#696969]">
                           {t("Elons.news24")}
                         </h5>
                       </div>
-                      <div>
+                      <div className="elon_card_date">
                         <div className="pb-3.5">
                           <span className="text-[#ffb400] flex items-center"><i className='bx bx-time-five mr-1'></i> окт 21, 2023</span>
                         </div>
