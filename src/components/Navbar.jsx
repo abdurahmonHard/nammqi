@@ -6,8 +6,8 @@ const Navbar = () => {
   const { t } = useTranslation();
   return (
     <div>
-      <div className="bg-[#6c5ebf] w-full fixed z-30 shadow-[-15px_20px_8px_-24px_rgba(0,0,0,0.4)]">
-        <nav className=" flex justify-between items-center w-[94%] h-5/6 m-auto ">
+      <div className="bg-[#6c5ebf] w-full fixed z-50 shadow-[-15px_20px_8px_-24px_rgba(0,0,0,0.4)]">
+        <nav className="main_navbar_container flex justify-between items-center w-[94%] h-5/6 m-auto z-[50]">
           <ul className="navbar_logo no-underline">
             <img className='w-48' src={t("Navbar.logo")} alt='logo'/>
           </ul>

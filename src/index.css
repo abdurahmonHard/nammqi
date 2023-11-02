@@ -51,7 +51,7 @@ html {
 
 
 
-
+/* Navbar responsive */
 
 @media (max-width: 768px){
   .navbar_logo{
@@ -107,6 +107,35 @@ html {
 
 }
 
+@media (max-width: 1200px){
+  .navbar_logo{
+    display: none !important;
+  }
+
+  .main_navbar_container{
+    display: flex !important;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 978px){
+  .navbar_lenguage{
+    display: none !important;
+  }
+
+  .main_navbar_container{
+    display: flex !important;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 848px){
+  .ant-space-item{
+    font-size: 14px !important;
+  }
+
+}
+
 
 .ant-dropdown-menu-item{
   border-radius: 0px !important;
@@ -121,10 +150,12 @@ html {
 }
 
 
-
 .slick-dots-bottom button{
   display: none !important;
 }
+
+
+
 
 
 .main_cards_container{
