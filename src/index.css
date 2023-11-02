@@ -50,6 +50,83 @@ html {
 }
 
 
+
+
+
+@media (max-width: 768px){
+  .navbar_logo{
+    display: none;
+  }
+
+  .navbar_lenguage{
+    display: none;
+  }
+
+  .ant-dropdown-trigger:hover{
+    border-width: 100% !important;
+    border-bottom: 1px solid #fff !important;
+  
+  }
+
+  .ant-space{
+    border-width: 100% !important;
+    border-top: 1px solid #fff !important;
+  }
+
+    
+  .navbar_text_items{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .ant-dropdown-menu{
+    padding: 0px !important;
+    margin-top: -3px !important;
+  }
+
+
+  .ant-dropdown-menu-item{
+    border-radius: 0px !important;
+    border-width: 100% !important;
+    border-top: 0.5px solid #7f72cf !important;
+  }
+
+  .ant-dropdown-menu-submenu-title{
+    border-radius: 0px !important;
+    border-width: 100% !important;
+    border-top: 0.5px solid #7f72cf !important;
+  }
+
+  ion-icon {
+    color: #fff;
+  }
+
+  .language_content{
+    height: 80px !important;
+  }
+
+}
+
+
+.ant-dropdown-menu-item{
+  border-radius: 0px !important;
+  border-width: 100% !important;
+  border-bottom: 0.5px solid #7f72cf !important;
+}
+
+.ant-dropdown-menu-submenu-title{
+  border-radius: 0px !important;
+  border-width: 100% !important;
+  border-bottom: 0.5px solid #7f72cf !important;
+}
+
+
+
+.slick-dots-bottom button{
+  display: none !important;
+}
+
+
 .main_cards_container{
   width: 90%;
   max-width: 1170px;
