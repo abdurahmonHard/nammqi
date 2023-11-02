@@ -88,13 +88,13 @@ html {
   .ant-dropdown-menu-item{
     border-radius: 0px !important;
     border-width: 100% !important;
-    border-top: 0.5px solid #7f72cf !important;
+    border-top: 1px solid #7f72cf !important;
   }
 
   .ant-dropdown-menu-submenu-title{
     border-radius: 0px !important;
     border-width: 100% !important;
-    border-top: 0.5px solid #7f72cf !important;
+    border-top: 1px solid #7f72cf !important;
   }
 
   ion-icon {
@@ -105,7 +105,31 @@ html {
     height: 80px !important;
   }
 
+  /* .ant-dropdown-menu-submenu {
+    display: flex;
+    flex-direction: column;
+    vertical-align: auto;
+    resize: vertical
+    
+  }
+  
+  .ant-dropdown-menu-submenu-vertical{
+    display: flex;
+    flex-direction: column;
+    vertical-align: auto;
+    resize: vertical
+  } */
+  .ant-dropdown-menu-vertical {
+    position: absolute !important;
+    left: 0px !important;
+   z-index: 10000 !important;
+  }
 }
+
+
+
+
+/* .resize: horizontal; */
 
 @media (max-width: 1200px){
   .navbar_logo{

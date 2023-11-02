@@ -59,7 +59,7 @@ useEffect(()=> {
   </>
 }
 const MenuStructChild = ({ items, }) => {
-  return <Dropdown menu={{ items, }} >
+  return <Dropdown menu={{ items, }}  className='my-dropdown' >
     <a onClick={(e) => e.preventDefault()} >
       <Space className="text-white flex py-6 uppercase px-3.5 cursor-pointer navbar_text_items" >
         {items[0].title}
